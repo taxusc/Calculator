@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 calculator.calcIn(btn)
             }
         }
-        // 四則演算ボタンのイベントセット
+        // 演算記号ボタンのイベントセット
         for (btn in btnOprArr) {
             btn.setOnClickListener{
                 calculator.setOperator(btn)
